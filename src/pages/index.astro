@@ -1,16 +1,34 @@
 ---
-
+import Aside from "../components/Aside.astro";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
+    <title>Hector Rivera</title>
+  </head>
+  <body>
+	<aside>
+		<Aside />
+	</aside>
+    <main>
+
+	</main>
+    <script is:inline>
+      document.addEventListener("DOMContentLoaded", function () {
+        const changeTheme = document.getElementById("changeTheme");
+        const body = document.body;
+
+        changeTheme.addEventListener("click", function () {
+          // Alternar clases de tema de TailwindCSS
+          body.classList.toggle("dark");
+        });
+      });
+    </script>
+  </body>
 </html>
