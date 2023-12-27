@@ -1,5 +1,6 @@
 ---
 import Aside from "../components/Aside.astro";
+import Main from "../components/Main";
 ---
 
 <html lang="en">
@@ -13,12 +14,10 @@ import Aside from "../components/Aside.astro";
     <title>Hector Rivera</title>
   </head>
   <body>
-	<aside>
-		<Aside />
-	</aside>
-    <main>
-
-	</main>
+		<header class="flex">
+      <Aside client:load/>
+      <Main client:load/>
+    </header>
     <script is:inline>
       document.addEventListener("DOMContentLoaded", function () {
         const changeTheme = document.getElementById("changeTheme");
