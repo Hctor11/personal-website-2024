@@ -16,7 +16,7 @@ import next from '../assets/icons/webdev/nextjs.svg'
 import sqlite from '../assets/icons/database/sqlite.svg'
 import sql from '../assets/icons/database/mysql.svg'
 import postgre from '../assets/icons/database/postgresql.svg'
-import sqlserver from '../assets/icons/database/postgresql.svg'
+import sqlserver from '../assets/icons/database/sqlserver.svg'
 
 import mongo from '../assets/icons/database/mongodb.svg'
 
@@ -162,5 +162,28 @@ export const DSFrameworks: icon[] = [
   {
     path:pytorch.src,
     name: "PyTorch"
+  }
+]
+
+export const design: icon[] = [
+  {
+    path: figma.src,
+    name: "Figma"
+  },
+  {
+    path: ps.src,
+    name: "Photoshop"
+  },
+  {
+    path: blender.src,
+    name: "Blender"
+  },
+  {
+    path: inkscape.src,
+    name: "Inkscape"
+  },
+  {
+    path: Spline.src,
+    name: "Spline"
   }
 ]

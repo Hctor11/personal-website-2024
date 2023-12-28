@@ -1,10 +1,6 @@
 import Title from "../util/Title";
 import Paragraph from "../util/Paragraph";
-import { motion } from "framer-motion";
-
-import IconMap from "./../util/IconMap";
-
-import { frontendIcons, backendIcons } from "../util/technologies";
+import Skills from "./Skills";
 
 const AboutMe = () => {
   return (
@@ -32,28 +28,7 @@ const AboutMe = () => {
         </div>
       </Title>
       <Title title="Skills">
-        <div className="webskills overflow-hidden">
-          <Paragraph
-            isTitle={true}
-            delay={0.2}
-            duration={0.6}
-            title="Web Development"
-            content=""
-          />
-          <motion.div
-            className="technologies flex justify-around overflow-hidden"
-            initial={{ y: "-200%" , opacity: 0}}
-            animate={{ y: 0 , opacity: 1}}
-            transition={{
-              duration: 1,
-              delay: 0.4,
-              ease: [0, 0.71, 0.2, 1],
-            }}
-          >
-            <IconMap icons={frontendIcons} label="FrontEnd" />
-            <IconMap icons={backendIcons} label="BackEnd" />
-          </motion.div>
-        </div>
+        <Skills/>
       </Title>
     </>
   );
