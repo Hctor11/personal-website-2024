@@ -8,7 +8,7 @@ interface props {
 
 const Title = ({ title, children }: props) => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden w-full lg:w-6/12">
       <motion.h3
         className="text-l font-medium"
         initial={{ y: "-200%" }}

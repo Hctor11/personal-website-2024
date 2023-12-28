@@ -8,7 +8,7 @@ const Main = () => {
   const $menuState = useStore(menuState);
 
   return (
-    <main className="p-2 w-8/12">
+    <main className="p-10 w-full">
       {$menuState == "home" ? (
         <AboutMe/>
       ) : $menuState == "work" ? (

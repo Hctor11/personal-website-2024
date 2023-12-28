@@ -12,7 +12,7 @@ const Paragraph = ({ isTitle, title, content, duration = 0.5, delay = 0.2}: pTex
   return (
     <div className="w-full overflow-hidden">
       {isTitle && (
-        <>
+        <div w-full >
           <motion.h3
             className="text-l font-medium mt-3"
             initial={{ y: "-200%" }}
@@ -35,10 +35,11 @@ const Paragraph = ({ isTitle, title, content, duration = 0.5, delay = 0.2}: pTex
               ease: [0, 0.71, 0.2, 1.01],
             }}
           ></motion.div>
-        </>
+        </div>
       )}
       <div className="overflow-hidden">
       <motion.p
+        className="text-wrap mr-10"
         initial={{ y: "-200%" }}
         animate={{ y: 0 }}
         transition={{
