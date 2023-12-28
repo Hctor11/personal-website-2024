@@ -10,7 +10,7 @@ interface pText {
 
 const Paragraph = ({ isTitle, title, content, duration = 0.5, delay = 0.2}: pText) => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="overflow-hidden">
       {isTitle && (
         <div w-full >
           <motion.h3
@@ -39,7 +39,7 @@ const Paragraph = ({ isTitle, title, content, duration = 0.5, delay = 0.2}: pTex
       )}
       <div className="overflow-hidden">
       <motion.p
-        className="text-wrap mr-10"
+        className="text-wrap mr-10 dark:text-zinc-400"
         initial={{ y: "-200%" }}
         animate={{ y: 0 }}
         transition={{

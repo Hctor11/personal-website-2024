@@ -1,12 +1,19 @@
-import astro from "../assets/icons/webdev/astro.svg"
-import type { icon, iconMapProps } from "./icons"
+import type { iconMapProps } from "./icons";
+import ToolTip from "./ToolTip";
 
-const IconMap = ({icons, label}:iconMapProps) => {
+const IconMap = ({ icons, label }: iconMapProps) => {
   return (
-    <div>
-        
+    <div className="text-center w-fit">
+      <div className="flex">
+        {icons.map((icon) => (
+          <ToolTip key={icon.name} message={icon.name} position="top">
+            <img src={icon.path} className="dark:filter dark:invert" alt="img" width={24} height={24} />
+          </ToolTip>
+        ))}
+      </div>
+      <p>{label}</p>
     </div>
-  )
-}
+  );
+};
 
-export default IconMap
+export default IconMap;

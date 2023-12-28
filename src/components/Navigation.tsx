@@ -14,15 +14,18 @@ const Navigation = () => {
   ];
 
   const handleItemClick = (state: string, index: number) => {
-    menuState.set(state)
-    setSelectedItem(index)
-  } 
+    menuState.set(state);
+    setSelectedItem(index);
+  };
 
   return (
     <nav className="flex flex-col justify-start items-start mt-5">
-      {menuItems.map((item) => (
+      {menuItems.map((item, index) => (
         <button
-          className={`hover:text-zinc-300 dark:text-white dark:hover:bg-zinc-800 ${item.index === selectedItem ? "bg-zinc-900 text-white dark:bg-white dark:text-black" : null}`}
+          key={index}
+          className={`hover:text-zinc-500 dark:text-white dark:hover:bg-zinc-800 ${
+            item.index === selectedItem ? "bg-white mix-blend-difference dark:text-white" : null
+          }`}
           onClick={() => handleItemClick(item.itemState, item.index)}
         >
           {item.itemName}
