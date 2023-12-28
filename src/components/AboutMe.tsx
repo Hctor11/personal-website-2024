@@ -1,11 +1,13 @@
-import Title from "./Title";
-import Paragraph from "./Paragraph";
+import Title from "../util/Title";
+import Paragraph from "../util/Paragraph";
+
+
 
 const AboutMe = () => {
   return (
     <>
       <Title title="About me">
-        <div className="content">
+        <div className="content transition-all">
           <Paragraph
             isTitle={false}
             content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus maiores dignissimos totam qui ducimus, dolorem quod eum dolores voluptatem. Fuga repellendus velit perspiciatis, rem id aut incidunt non sed iure."

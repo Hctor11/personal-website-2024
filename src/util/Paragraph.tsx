@@ -26,7 +26,7 @@ const Paragraph = ({ isTitle, title, content, duration = 0.5, delay = 0.2}: pTex
             {title}
           </motion.h3>
           <motion.div
-            className="h-[2px] w-full bg-black overflow-hidden"
+            className="h-[2px] w-full bg-black overflow-hidden dark:bg-white"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{

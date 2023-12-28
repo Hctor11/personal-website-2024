@@ -1,6 +1,7 @@
 import type { ReactElement } from "react";
 import { motion } from "framer-motion";
 
+
 interface props {
   title: string;
   children: ReactElement;
@@ -22,7 +23,7 @@ const Title = ({ title, children }: props) => {
         {title}
       </motion.h3>
       <motion.div
-        className="h-[2px] w-full bg-black"
+        className="h-[2px] w-full bg-black dark:bg-white"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{

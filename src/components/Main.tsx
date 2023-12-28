@@ -8,7 +8,7 @@ const Main = () => {
   const $menuState = useStore(menuState);
 
   return (
-    <main className="p-10 w-full">
+    <main className="p-10 w-full dark:bg-zinc-900 dark:text-white transition-all">
       {$menuState == "home" ? (
         <AboutMe/>
       ) : $menuState == "work" ? (
