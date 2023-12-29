@@ -37,7 +37,6 @@ import blender from '../assets/icons/design/blender.svg'
 import ps from '../assets/icons/design/photoshop.svg'
 import inkscape from '../assets/icons/design/inkscape.svg'
 import Spline from '../assets/icons/design/spline.png'
-import jitter from '../assets/icons/design/jitter.svg'
 
 export const frontendIcons: icon[] = [
   {

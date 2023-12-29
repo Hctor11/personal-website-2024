@@ -39,7 +39,7 @@ const Paragraph = ({ isTitle, title, content, duration = 0.5, delay = 0.2}: pTex
       )}
       <div className="overflow-hidden">
       <motion.p
-        className="text-wrap mr-10 dark:text-zinc-400"
+        className="text-wrap mr-10 text-zinc-500 dark:text-zinc-400"
         initial={{ y: "-200%" }}
         animate={{ y: 0 }}
         transition={{

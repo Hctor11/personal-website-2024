@@ -82,7 +82,7 @@ const Skills = () => {
               content=""
             />
             <motion.div
-              className="technologies flex pb-4 justify-center"
+              className="technologies flex pb-4 justify-center overflow-hidden"
               initial={{ y: "-200%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{

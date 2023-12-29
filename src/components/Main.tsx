@@ -1,6 +1,6 @@
 import { useStore } from "@nanostores/react";
 import { menuState } from "../contentStore";
-import { motion, AnimatePresence } from "framer-motion"
+import Work from "./Work";
 
 import AboutMe from "./AboutMe";
 
@@ -12,7 +12,7 @@ const Main = () => {
       {$menuState == "home" ? (
         <AboutMe/>
       ) : $menuState == "work" ? (
-        <h1> work</h1>
+        <Work/>
       ) : (
         <h1>deaht</h1>
       )}
