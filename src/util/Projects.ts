@@ -61,7 +61,7 @@ export interface imageGallery{
     images: image[];
 }
 
-export const allCodeProjects:(codeProject | imageGallery)[] = [
+export const allCodeProjects:codeProject[] = [
     {
         title: 'React Resouces',
         subtitle: 'Hub of React tools and packages',
@@ -128,7 +128,11 @@ export const allCodeProjects:(codeProject | imageGallery)[] = [
         ],
         image: minitranslator.src,
         link: "https://mini-translator.vercel.app/"
-    },
+    }
+]
+
+export const allDesignProjects = [
+    ,
     {
         title: "Dribble Screens",
         subtitle: "Collection of UI screens",
