@@ -19,11 +19,11 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="flex flex-col justify-start items-start mt-5">
+    <nav className="md:flex flex-col justify-start items-start mt-5">
       {menuItems.map((item, index) => (
         <button
           key={index}
-          className={`hover:text-zinc-500 dark:text-white dark:hover:bg-zinc-800 ${
+          className={`hover:text-zinc-500 mr-5 md:mr-0 dark:text-white dark:hover:bg-zinc-800 ${
             item.index === selectedItem ? "bg-white mix-blend-difference dark:text-white" : null
           }`}
           onClick={() => handleItemClick(item.itemState, item.index)}

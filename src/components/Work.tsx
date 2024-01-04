@@ -1,9 +1,9 @@
-import ProjectMap from "../util/ProjectMap";
+import ProjectItem from "../util/ProjectItem";
 
 const Work = () => {
   return (
     <div>
-      <ProjectMap/>
+      <ProjectItem/>
     </div>
   );
 };

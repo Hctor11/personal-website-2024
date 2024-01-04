@@ -1,0 +1,9 @@
+
+
+details[open] > *:not(summary) 
+    animation: details-show 150ms ease-in-out
+
+@keyframes details-show
+    from
+        opacity: 0
+        transform: var(--details-translate, translateY(-0.5em))

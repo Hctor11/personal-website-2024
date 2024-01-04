@@ -16,7 +16,7 @@ const Skills = () => {
               content=""
             />
             <motion.div
-              className="technologies flex justify-around overflow-hidden"
+              className="technologies flex flex-col items-start md:flex-row md:justify-around overflow-hidden"
               initial={{ y: "-200%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
@@ -38,7 +38,7 @@ const Skills = () => {
               content=""
             />
             <motion.div
-              className="technologies flex justify-around overflow-hidden"
+              className="technologies flex flex-col items-start md:flex-row md:justify-around overflow-hidden"
               initial={{ y: "-200%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
@@ -60,7 +60,7 @@ const Skills = () => {
               content=""
             />
             <motion.div
-              className="technologies flex justify-around overflow-hidden"
+              className="technologies flex flex-col items-start md:flex-row md:justify-around overflow-hidden"
               initial={{ y: "-200%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
@@ -82,7 +82,7 @@ const Skills = () => {
               content=""
             />
             <motion.div
-              className="technologies flex pb-4 justify-center overflow-hidden"
+              className="technologies flex flex-col items-start md:flex-row md:justify-around overflow-hidden"
               initial={{ y: "-200%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{

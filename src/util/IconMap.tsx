@@ -3,7 +3,7 @@ import ToolTip from "./ToolTip";
 
 const IconMap = ({ icons, label }: iconMapProps) => {
   return (
-    <div className="text-center w-fit">
+    <div className="md:text-center w-fit">
       <div className="flex items-center justify-center">
         {icons.map((icon) => (
           <ToolTip key={icon.name} message={icon.name} position="top">
@@ -11,7 +11,7 @@ const IconMap = ({ icons, label }: iconMapProps) => {
           </ToolTip>
         ))}
       </div>
-      <p>{label}</p>
+      <p className="text-zinc-400">{label}</p>
     </div>
   );
 };

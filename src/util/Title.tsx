@@ -32,7 +32,7 @@ const Title = ({ title, children }: props) => {
           ease: [0, 0.71, 0.2, 1.01],
         }}
       ></motion.div>
-      <div className="container ml-10">{children}</div>
+      <div className="container pl-5">{children}</div>
     </div>
   );
 };
