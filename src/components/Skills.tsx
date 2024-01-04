@@ -6,7 +6,7 @@ import { frontendIcons, backendIcons, relDatabases, noRelDB, DSTools, DSFramewor
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="">
           <div className="webskills overflow-hidden">
             <Paragraph
               isTitle={true}
@@ -82,7 +82,7 @@ const Skills = () => {
               content=""
             />
             <motion.div
-              className="technologies flex flex-col items-start md:flex-row md:justify-around overflow-hidden"
+              className="pb-10 technologies flex flex-col items-start md:flex-row md:justify-around overflow-hidden"
               initial={{ y: "-200%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
