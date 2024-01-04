@@ -10,7 +10,7 @@ import ps from '../assets/icons/design/photoshop.svg'
 
 import next from '../assets/icons/webdev/nextjs.svg'
 import axios from '../assets/icons/webdev/axios.svg'
-import typescript from '../assets/icons/webdev/tailwind.svg'
+import typescript from '../assets/icons/webdev/typescript.svg'
 
 import reactres from '../assets/images/proyects/ReactResources.png'
 import sputnik from '../assets/images/proyects/Sputnik.png'
@@ -90,7 +90,7 @@ export const allCodeProjects:codeProject[] = [
     {
         title: 'Sputnik',
         subtitle: 'Posters for the Sputnik Spatial Mission',
-        description: 'Behance alternative project about Sputnik, using Blender for the Sputnik model and Photoshop to make the graphic design.',
+        description: 'Behance project about Sputnik, using Blender for the model and Photoshop to make the graphic design.',
         stack: [
             {   
                 path: ps.src,
@@ -131,8 +131,7 @@ export const allCodeProjects:codeProject[] = [
     }
 ]
 
-export const allDesignProjects = [
-    ,
+export const allDesignProjects:imageGallery[] = [
     {
         title: "Dribble Screens",
         subtitle: "Collection of UI screens",
@@ -161,7 +160,7 @@ export const allDesignProjects = [
     },
     {
         title: "Social Media Desing",
-        subtitle: "Collection of Social Media Desings",
+        subtitle: "Social Media Projects",
         columns: 3,
         images: [
             {
