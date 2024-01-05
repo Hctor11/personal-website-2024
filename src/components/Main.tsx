@@ -1,7 +1,7 @@
 import { useStore } from "@nanostores/react";
 import { menuState } from "../contentStore";
 import Work from "./Work";
-
+import Contact from "./Contact";
 import AboutMe from "./AboutMe";
 
 const Main = () => {
@@ -14,7 +14,7 @@ const Main = () => {
       ) : $menuState == "work" ? (
         <Work/>
       ) : (
-        <h1>deaht</h1>
+        <Contact/>
       )}
     </main>
   );
