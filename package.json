@@ -13,6 +13,7 @@
     "@astrojs/check": "^0.3.4",
     "@astrojs/react": "^3.0.8",
     "@astrojs/tailwind": "^5.0.4",
+    "@astrojs/vercel": "^6.1.2",
     "@material-tailwind/react": "^2.1.8",
     "@nanostores/react": "^0.7.1",
     "@types/react": "^18.2.45",
