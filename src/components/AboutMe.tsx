@@ -16,14 +16,14 @@ const AboutMe = () => {
             delay={0.2}
             duration={0.6}
             title="Motivation"
-            content="To create products that add something new to old formulas, express a minimalist way of solving problems, and contribute something new to the conversation."
+            content="Create products that add something new to old formulas, express a minimalist way of solving problems, and contribute something new to the conversation."
           />
           <Paragraph
             isTitle={true}
             delay={0.3}
             duration={0.7}
             title="Currently"
-            content="I am currently in my first year of university at the Universidad Católica de El Salvador, Santa Ana."
+            content="I am currently in my first year of university in Software Development at the Universidad Católica de El Salvador, Santa Ana."
           />
         </div>
       </Title>
