@@ -9,21 +9,21 @@ const AboutMe = () => {
         <div className="content">
           <Paragraph
             isTitle={false}
-            content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus maiores dignissimos totam qui ducimus, dolorem quod eum dolores voluptatem. Fuga repellendus velit perspiciatis, rem id aut incidunt non sed iure."
+            content="I was born in 2005 in the city of Acajutla in Sonsonate, El Salvador. My work philosophy consists of creating useful tools for people, making design a part of functionality and functionality a part of the experience. Learning in the process is indispensable."
           />
           <Paragraph
             isTitle={true}
             delay={0.2}
             duration={0.6}
             title="Motivation"
-            content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus maiores dignissimos totam qui ducimus, dolorem quod eum dolores voluptatem. Fuga repellendus velit perspiciatis, rem id aut incidunt non sed iure."
+            content="To create products that add something new to old formulas, express a minimalist way of solving problems, and contribute something new to the conversation."
           />
           <Paragraph
             isTitle={true}
             delay={0.3}
             duration={0.7}
             title="Currently"
-            content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus maiores dignissimos totam qui ducimus, dolorem quod eum dolores voluptatem. Fuga repellendus velit perspiciatis, rem id aut incidunt non sed iure."
+            content="I am currently in my first year of university at the Universidad Católica de El Salvador, Santa Ana."
           />
         </div>
       </Title>
