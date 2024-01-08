@@ -1,11 +1,8 @@
-import { useStore } from "@nanostores/react";
 import { menuState } from "../contentStore";
 import { useState } from "react";
 
 const Navigation = () => {
   const [selectedItem, setSelectedItem] = useState(1);
-
-  const $menuState = useStore(menuState);
 
   const menuItems: { itemName: string; itemState: string; index: number }[] = [
     { itemName: "About me", itemState: "home", index: 1 },
