@@ -14,6 +14,7 @@ const Contact = () => {
             LinkedIn
           </a>
 
+
           <hr />
 
           <a
