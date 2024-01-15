@@ -13,8 +13,8 @@ import next from '../assets/icons/webdev/nextjs.svg'
 import axios from '../assets/icons/webdev/axios.svg'
 import typescript from '../assets/icons/webdev/typescript.svg'
 
-import vue from '../assets/icons/vue.svg'
-import nuxt from '../assets/icons/nuxt.svg'
+import vue from '../assets/icons/webdev/vue.svg'
+import nuxt from '../assets/icons/webdev/nuxt.svg'
 
 // project images
 import qrgenerator from '../assets/images/proyects/qr-generator.png'
@@ -74,7 +74,7 @@ export const allCodeProjects:codeProject[] = [
     {
         title: 'QR Generator',
         subtitle: 'Minimal Code Generator',
-        description: 'Hub of React Resources, using Pandas to make data as a JSON array and mapping it in React Components.',
+        description: 'This Vue.js application allows users to generate QR codes dynamically based on their input.',
         stack: [
             {   
                 path: nuxt.src,
