@@ -13,8 +13,8 @@ import next from '../assets/icons/webdev/nextjs.svg'
 import axios from '../assets/icons/webdev/axios.svg'
 import typescript from '../assets/icons/webdev/typescript.svg'
 
-import vue from '../assets/icons/vue/vue.svg'
-import nuxt from '../assets/icons/vue/nuxt.svg'
+import vue from '../assets/icons/vue.svg'
+import nuxt from '../assets/icons/nuxt.svg'
 
 // project images
 import qrgenerator from '../assets/images/proyects/qr-generator.png'
