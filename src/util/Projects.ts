@@ -1,5 +1,6 @@
 import type { icon } from "./icons";
 
+// technologies icons
 import react from '../assets/icons/webdev/react.svg'
 import pandas from '../assets/icons/datascience/pandas.svg'
 import tailwind from '../assets/icons/webdev/tailwind.svg'
@@ -12,10 +13,16 @@ import next from '../assets/icons/webdev/nextjs.svg'
 import axios from '../assets/icons/webdev/axios.svg'
 import typescript from '../assets/icons/webdev/typescript.svg'
 
+import vue from '../assets/icons/vue/vue.svg'
+import nuxt from '../assets/icons/vue/nuxt.svg'
+
+// project images
+import qrgenerator from '../assets/images/proyects/qr-generator.png'
 import reactres from '../assets/images/proyects/ReactResources.png'
 import sputnik from '../assets/images/proyects/Sputnik.png'
 import minitranslator from '../assets/images/proyects/Minitranslator.png'
 
+// dribble images
 import d1 from '../assets/images/dribbble/d1.png'
 import d2 from '../assets/images/dribbble/d2.png'
 import d3 from '../assets/images/dribbble/d3.png'
@@ -23,11 +30,13 @@ import d4 from '../assets/images/dribbble/d4.png'
 import d5 from '../assets/images/dribbble/d5.png'
 import d6 from '../assets/images/dribbble/d6.png'
 
+// advertisements images
 import ad1 from "../assets/images/advertisements/ad1.png"
 import ad2 from "../assets/images/advertisements/ad2.png"
 import ad3 from "../assets/images/advertisements/ad3.png"
 import ad4 from "../assets/images/advertisements/ad4.png"
 
+// socialmedia images
 import sm1 from "../assets/images/socialmedia/sm1.png"
 import sm2 from "../assets/images/socialmedia/sm2.png"
 import sm3 from "../assets/images/socialmedia/sm3.png"
@@ -62,6 +71,27 @@ export interface imageGallery{
 }
 
 export const allCodeProjects:codeProject[] = [
+    {
+        title: 'QR Generator',
+        subtitle: 'Minimal Code Generator',
+        description: 'Hub of React Resources, using Pandas to make data as a JSON array and mapping it in React Components.',
+        stack: [
+            {   
+                path: nuxt.src,
+                name: "Nuxt"
+            },
+            {   
+                path: vue.src,
+                name: "Vue JS"
+            },
+            {   
+                path: tailwind.src,
+                name: "TailwindCSS"
+            }
+        ],
+        image: qrgenerator.src,
+        link: "https://qr-generator-woad.vercel.app/"
+    },
     {
         title: 'React Resouces',
         subtitle: 'Hub of React tools and packages',
