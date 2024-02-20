@@ -73,7 +73,7 @@ export interface imageGallery{
 export const allCodeProjects:codeProject[] = [
     {
         title: 'QR Generator',
-        subtitle: 'Minimal Code Generator',
+        subtitle: 'Minimal QR Code Generator',
         description: 'This Vue.js application allows users to generate QR codes dynamically based on their input.',
         stack: [
             {   
