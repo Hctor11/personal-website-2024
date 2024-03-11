@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="content">
           <Paragraph
             isTitle={false}
-            content="I was born in 2005 in the city of Acajutla in Sonsonate, El Salvador. My work philosophy consists of creating useful tools for people, making design a part of functionality and functionality a part of the experience. Learning in the process is indispensable."
+            content="Born in 2005 in El Salvador. My work philosophy consists of creating useful tools for people, making design a part of functionality and functionality a part of the experience."
           />
           <Paragraph
             isTitle={true}
@@ -23,7 +23,7 @@ const AboutMe = () => {
             delay={0.3}
             duration={0.7}
             title="Currently"
-            content="I am currently in my first year of university in Software Development at the Universidad Católica de El Salvador, Santa Ana."
+            content="I am currently in my first year of college in Software Development Engineering at Universidad Católica de El Salvador, Santa Ana."
           />
         </div>
       </Title>

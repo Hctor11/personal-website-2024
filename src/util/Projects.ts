@@ -118,23 +118,6 @@ export const allCodeProjects:codeProject[] = [
         link: "https://hctor11.github.io/react-resources/"
     },
     {
-        title: 'Sputnik',
-        subtitle: 'Posters for the Sputnik Spatial Mission',
-        description: 'Behance project about Sputnik, using Blender for the model and Photoshop to make the graphic design.',
-        stack: [
-            {   
-                path: ps.src,
-                name: "Photoshop"
-            },
-            {   
-                path: blender.src,
-                name: "Blender"
-            }
-        ],
-        image: sputnik.src,
-        link: "https://www.behance.net/gallery/174574421/Sputnik"
-    },
-    {
         title: 'Mini-Translator',
         subtitle: 'Translator web app',
         description: 'Minimalist translator website.',
