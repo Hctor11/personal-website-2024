@@ -51,7 +51,7 @@ const ProjectItem = () => {
         </>
       </Title>
       <br />
-      <Title title="Design projects">
+      <Title title="Design Projects">
         <>
           {allDesignProjects.map((project, index) => (
             <>
