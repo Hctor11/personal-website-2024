@@ -7,7 +7,7 @@ import IconMap from "./IconMap";
 const ProjectItem = () => {
   return (
     <>
-      <Title title="Projects">
+      <Title title="Code Projects">
         <>
           {allCodeProjects.map((project, index) => (
             <>
@@ -30,7 +30,11 @@ const ProjectItem = () => {
                     <hr />
                   </summary>
                   <div className="w-auto mb-5 md:flex p-1">
-                    <a href={project.link} target="_blank" className="block w-full md:w-1/2">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      className="block w-full md:w-1/2"
+                    >
                       <img src={project.image} alt="image" className="border" />
                     </a>
                     <div className="description w-1/2 flex items-center md:flex-col">
@@ -44,6 +48,11 @@ const ProjectItem = () => {
               </motion.div>
             </>
           ))}
+        </>
+      </Title>
+      <br />
+      <Title title="Design projects">
+        <>
           {allDesignProjects.map((project, index) => (
             <>
               <motion.div
