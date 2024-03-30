@@ -14,7 +14,7 @@ const Paragraph = ({ isTitle, title, content, duration = 0.5, delay = 0.2}: pTex
       {isTitle && (
         <div w-full >
           <motion.h3
-            className="text-l font-medium mt-3"
+            className="text-xl font-extralight mt-3"
             initial={{ y: "-200%" }}
             animate={{ y: 0 }}
             transition={{

@@ -82,7 +82,7 @@ const ProjectItem = () => {
                       </> : null
                     }
                     </div>
-                  <div className="mb-5 columns-1 md:columns-2 lg:columns-3 overflow-hidden">
+                  <div className="mb-5 columns-1 md:columns-2 overflow-hidden">
                     
                     {project?.images.map((image) => (
                       <>
@@ -91,6 +91,7 @@ const ProjectItem = () => {
                             src={image.src}
                             alt="image"
                             className="h-fit py-2 hover:brightness-75 transition-all"
+                            loading="lazy"
                           />
                         </a>
                       </>

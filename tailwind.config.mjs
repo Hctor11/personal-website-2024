@@ -3,10 +3,12 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	darkMode: "class",
 	theme: {
-		fontFamily:{
-			'sans': ['Satoshi']
-		},
-		extend: {},
+		extend: {
+			fontFamily: {
+			  sans: ['var(--font-geist-sans)'],
+			  mono: ['var(--font-geist-mono)'],
+			},
+		  },
 	},
 	plugins: [],
 }

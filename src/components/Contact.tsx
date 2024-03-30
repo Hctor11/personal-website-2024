@@ -30,17 +30,8 @@ const Contact = () => {
             target="_blank"
             className="hover:text-blue-500"
           >
-            Behance 1
+            Behance
           </a>
-
-          <a
-            href="https://www.behance.net/time_"
-            target="_blank"
-            className="hover:text-blue-500"
-          >
-            Behance 2
-          </a>
-
           <hr />
 
           <a

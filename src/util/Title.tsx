@@ -11,7 +11,7 @@ const Title = ({ title, children }: props) => {
   return (
     <div className="overflow-hidden w-full lg:w-6/12">
       <motion.h3
-        className="text-l font-medium"
+        className="text-2xl font-normal"
         initial={{ y: "-200%" }}
         animate={{ y: 0 }}
         transition={{

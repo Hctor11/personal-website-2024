@@ -170,7 +170,7 @@ export const allDesignProjects: imageGallery[] = [
     subtitle: "Advertising and 3D",
     description:
       "This project showcases the elegance and innovation of a minimalist smartphone design, focusing on essential features and a sleek aesthetic.",
-    columns: 2,
+    columns: 1,
     images: [
       {
         src: n1.src,

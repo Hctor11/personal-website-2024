@@ -9,7 +9,7 @@ const Aside = () => {
       <div className="top-section">
         <div className="title dark:text-white">
           <h1 className="text-xl font-medium leading-3 ">Hector Rivera</h1>
-          <p className="text-sm">Developer & Designer</p>
+          <p className="text-sm font-light">Developer & Designer</p>
         </div>
         <Navigation />
       </div>

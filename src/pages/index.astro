@@ -1,7 +1,6 @@
 ---
 import Aside from "../components/Aside.tsx";
 import Main from "../components/Main";
-import Darkmode from "../components/Darkmode.astro";
 ---
 
 <html lang="en">
@@ -19,17 +18,11 @@ import Darkmode from "../components/Darkmode.astro";
       <Aside client:load/>
       <Main client:load/>
     </header>
-    <script is:inline>
-      document.addEventListener("DOMContentLoaded", function () {
-        const changeTheme = document.getElementById("changeTheme");
-        const body = document.body;
-
-        changeTheme.addEventListener("click", function () {
-          // Alternar clases de tema de TailwindCSS
-          body.classList.toggle("dark");
-        });
-      });
-    </script>
   </body>
 </html>
-../components/Aside.tsx
+
+<style>
+  body{
+    font-family: 'Satoshi';
+  }
+</style>
