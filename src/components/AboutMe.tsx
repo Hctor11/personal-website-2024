@@ -13,13 +13,6 @@ const AboutMe = () => {
           />
           <Paragraph
             isTitle={true}
-            delay={0.2}
-            duration={0.6}
-            title="Motivation"
-            content="Create products that add something new to old formulas, express a minimalist way of solving problems, and contribute something new to the conversation."
-          />
-          <Paragraph
-            isTitle={true}
             delay={0.3}
             duration={0.7}
             title="Currently"
@@ -27,6 +20,7 @@ const AboutMe = () => {
           />
         </div>
       </Title>
+      <br />
       <Title title="Skills">
         <Skills/>
       </Title>

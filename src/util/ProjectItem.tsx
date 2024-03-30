@@ -73,14 +73,24 @@ const ProjectItem = () => {
                     </span>
                     <hr />
                   </summary>
+                  <div className="">
+                    {
+                      project?.description ? <>
+                        <p className="font-light  md:w-auto md:p-2">
+                        {project.description}
+                      </p>
+                      </> : null
+                    }
+                    </div>
                   <div className="mb-5 columns-1 md:columns-2 lg:columns-3 overflow-hidden">
+                    
                     {project?.images.map((image) => (
                       <>
                         <a href={image.link} className="w-full" target="_blank">
                           <img
                             src={image.src}
                             alt="image"
-                            className="h-fit py-2"
+                            className="h-fit py-2 hover:brightness-75 transition-all"
                           />
                         </a>
                       </>
