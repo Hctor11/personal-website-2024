@@ -71,6 +71,10 @@ export const frontendIcons: icon[] = [
     path: tailwind.src,
     name: "TailwindCSS",
   },
+  {
+      path: next.src,
+      name: "NextJS"
+  }
 ];
 
 export const backendIcons: icon[] = [
@@ -85,10 +89,6 @@ export const backendIcons: icon[] = [
     {
         path: django.src,
         name: "Django"
-    },
-    {
-        path: next.src,
-        name: "NextJS"
     }
 ]
 

@@ -57,6 +57,15 @@ import sp2 from "../assets/images/sputnik/poster2.png";
 import sp3 from "../assets/images/sputnik/poster3.png";
 import sp4 from "../assets/images/sputnik/poster44.png";
 
+// nothing phone 2a
+import n1 from "../assets/images/nothing/n1.png";
+import n2 from "../assets/images/nothing/n2.png";
+import n3 from "../assets/images/nothing/n3.png";
+import n4 from "../assets/images/nothing/n4.png";
+import n5 from "../assets/images/nothing/n5.png";
+import n6 from "../assets/images/nothing/n6.png";
+
+
 export interface codeProject {
   title: string;
   subtitle: string;
@@ -156,6 +165,39 @@ export const allCodeProjects: codeProject[] = [
 ];
 
 export const allDesignProjects: imageGallery[] = [
+  {
+    title: "Nothing Phone (2a)",
+    subtitle: "Advertising and 3D",
+    description:
+      "This project showcases the elegance and innovation of a minimalist smartphone design, focusing on essential features and a sleek aesthetic.",
+    columns: 2,
+    images: [
+      {
+        src: n1.src,
+        link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
+      },
+      {
+        src: n2.src,
+        link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
+      },
+      {
+        src: n3.src,
+        link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
+      },
+      {
+        src: n4.src,
+        link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
+      },
+      {
+        src: n5.src,
+        link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
+      },
+      {
+        src: n6.src,
+        link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
+      },
+    ],
+  },
   {
     title: "Sputnik",
     subtitle: "Collection of posters",
