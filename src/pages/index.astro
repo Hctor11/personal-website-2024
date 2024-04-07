@@ -6,23 +6,36 @@ import Main from "../components/Main";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/personal-website-2024/icon.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/personal-website-2024/icon.svg"
+    />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
+
+    <meta name="twitter:title" content="Hector Rivera - Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Graphic designer and Frontend Developer"
+    />
+    <meta name="twitter:image" content="/personal-website-2024/thumb-meta.png" />
+    <meta name="twitter:card" content="/personal-website-2024/thumb-meta.png" />
+
     <title>Hector Rivera</title>
   </head>
   <body class="bg-white dark:bg-zinc-900">
-		<header class="md:flex dark:bg-zinc-900">
-      <Aside client:load/>
-      <Main client:load/>
+    <header class="md:flex dark:bg-zinc-900">
+      <Aside client:load />
+      <Main client:load />
     </header>
   </body>
 </html>
 
 <style>
-  body{
-    font-family: 'Satoshi';
+  body {
+    font-family: "Satoshi";
   }
 </style>
