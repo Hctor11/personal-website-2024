@@ -65,6 +65,20 @@ import n4 from "../assets/images/nothing/n4.png";
 import n5 from "../assets/images/nothing/n5.png";
 import n6 from "../assets/images/nothing/n6.png";
 
+// Alexandria
+import a1 from "../assets/images/alexandria/a1.png";
+import a2 from "../assets/images/alexandria/a2.png";
+import a3 from "../assets/images/alexandria/a3.png";
+import a4 from "../assets/images/alexandria/a4.png";
+import a5 from "../assets/images/alexandria/a5.png";
+import a6 from "../assets/images/alexandria/a6.png";
+import a7 from "../assets/images/alexandria/a7.png";
+import a8 from "../assets/images/alexandria/a8.png";
+import a9 from "../assets/images/alexandria/a9.png";
+import a10 from "../assets/images/alexandria/a10.png";
+import a11 from "../assets/images/alexandria/a11.png";
+
+
 
 export interface codeProject {
   title: string;
@@ -165,6 +179,59 @@ export const allCodeProjects: codeProject[] = [
 ];
 
 export const allDesignProjects: imageGallery[] = [
+  {
+    title: "Alexandria",
+    subtitle: "Branding and UI/UX Design study case",
+    description:
+      "Brading and UI/UX study for Alexandria desktop application, clean, minimal and functional.",
+    columns: 1,
+    images: [
+      {
+        src: a1.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a2.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a3.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a4.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a5.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a6.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a7.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a8.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a9.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a10.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+      {
+        src: a11.src,
+        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
+      },
+    ],
+  },
   {
     title: "Nothing Phone (2a)",
     subtitle: "Advertising and 3D",

@@ -7,6 +7,7 @@ import astro from "../assets/icons/webdev/astro.svg";
 import react from "../assets/icons/webdev/react.svg";
 import sass from "../assets/icons/webdev/sass.svg";
 import tailwind from "../assets/icons/webdev/tailwind.svg";
+import vue from "../assets/icons/webdev/vue.svg";
 
 import node from '../assets/icons/webdev/nodejs.svg'
 import php from '../assets/icons/webdev/php.svg'
@@ -74,6 +75,10 @@ export const frontendIcons: icon[] = [
   {
       path: next.src,
       name: "NextJS"
+  },
+  {
+      path: vue.src,
+      name: "VueJs"
   }
 ];
 
@@ -83,20 +88,12 @@ export const backendIcons: icon[] = [
         name: "NodeJS"
     },
     {
-        path: php.src,
-        name: "PHP"
-    },
-    {
         path: django.src,
         name: "Django"
     }
 ]
 
 export const relDatabases: icon[] = [
-  {
-    path:sqlite.src,
-    name: "Sqlite"
-  },
   {
     path: sql.src,
     name: "MySql"
