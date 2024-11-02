@@ -41,6 +41,15 @@ const ProjectItem = () => {
                       <p className="font-light  md:w-auto md:p-2">
                         {project.description}
                       </p>
+
+                      <a
+                      href={project.link}
+                      target="_blank"
+                      className="font-bold underline hover:text-gray-600"
+                    >
+                      Project Link
+                    </a>
+
                       <IconMap icons={project.stack} />
                     </div>
                   </div>
@@ -82,6 +91,13 @@ const ProjectItem = () => {
                       </> : null
                     }
                     </div>
+                    <div className="mb-2">
+                    {
+                      project?.projectLink ? <>
+                      <a className="p-2 font-bold underline hover:text-gray-600" href={project.projectLink}>Project Link</a>
+                      </> : null
+                    }
+                    </div>
                   <div className="mb-5 columns-1 md:columns-2 overflow-hidden">
                     
                     {project?.images.map((image) => (
@@ -90,7 +106,7 @@ const ProjectItem = () => {
                           <img
                             src={image.src}
                             alt="image"
-                            className="h-fit py-2 hover:brightness-75 transition-all"
+                            className="h-fit hover:brightness-75 transition-all"
                             loading="lazy"
                           />
                         </a>

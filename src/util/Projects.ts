@@ -19,18 +19,14 @@ import nuxt from "../assets/icons/webdev/nuxt.svg";
 // project images
 import qrgenerator from "../assets/images/proyects/qr-generator.png";
 import reactres from "../assets/images/proyects/ReactResources.png";
-import sputnik from "../assets/images/proyects/Sputnik.png";
+import pascaline from "../assets/images/proyects/pascaline.png";
 import minitranslator from "../assets/images/proyects/Minitranslator.png";
 
 // dribble images
 import d1 from "../assets/images/dribbble/d1.png";
 import d2 from "../assets/images/dribbble/d2.png";
-import d3 from "../assets/images/dribbble/d3.png";
-import d4 from "../assets/images/dribbble/d4.png";
-import d5 from "../assets/images/dribbble/d5.png";
-import d6 from "../assets/images/dribbble/d6.png";
 import d7 from "../assets/images/dribbble/d7.png";
-import d8 from "../assets/images/dribbble/d8.png";
+import d9 from "../assets/images/dribbble/d9.png";
 
 // advertisements images
 import ad1 from "../assets/images/advertisements/ad1.png";
@@ -98,11 +94,30 @@ export interface imageGallery {
   title: string;
   subtitle: string;
   description?: string;
+  projectLink?: string;
   columns: number;
   images: image[];
 }
 
 export const allCodeProjects: codeProject[] = [
+  {
+    title: "Pascaline",
+    subtitle: "Calculators hub",
+    description:
+      "Pascaline is a one-stop-shop for all kinds of calculators for math, physics, and statistics.",
+    stack: [
+      {
+        path: next.src,
+        name: "Next",
+      },
+      {
+        path: tailwind.src,
+        name: "TailwindCSS",
+      },
+    ],
+    image: pascaline.src,
+    link: "https://pascaline.vercel.app/",
+  },
   {
     title: "QR Generator",
     subtitle: "Minimal QR Code Generator",
@@ -180,7 +195,7 @@ export const allCodeProjects: codeProject[] = [
 
 export const allDesignProjects: imageGallery[] = [
   {
-    title: "Alexandria",
+    title: "Alexandria (2024)",
     subtitle: "Branding and UI/UX Design study case",
     description:
       "Brading and UI/UX study for Alexandria desktop application, clean, minimal and functional.",
@@ -188,34 +203,6 @@ export const allDesignProjects: imageGallery[] = [
     images: [
       {
         src: a1.src,
-        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
-      },
-      {
-        src: a2.src,
-        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
-      },
-      {
-        src: a3.src,
-        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
-      },
-      {
-        src: a4.src,
-        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
-      },
-      {
-        src: a5.src,
-        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
-      },
-      {
-        src: a6.src,
-        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
-      },
-      {
-        src: a7.src,
-        link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
-      },
-      {
-        src: a8.src,
         link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
       },
       {
@@ -231,9 +218,10 @@ export const allDesignProjects: imageGallery[] = [
         link: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case",
       },
     ],
+    projectLink: "https://www.behance.net/gallery/198063719/Alexandria-Note-taking-app-study-case"
   },
   {
-    title: "Nothing Phone (2a)",
+    title: "Nothing Phone 2a (2024)",
     subtitle: "Advertising and 3D",
     description:
       "This project showcases the elegance and innovation of a minimalist smartphone design, focusing on essential features and a sleek aesthetic.",
@@ -254,19 +242,12 @@ export const allDesignProjects: imageGallery[] = [
       {
         src: n4.src,
         link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
-      },
-      {
-        src: n5.src,
-        link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
-      },
-      {
-        src: n6.src,
-        link: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29",
-      },
+      }
     ],
+    projectLink: "https://www.behance.net/gallery/195124709/Nothing-Phone-%282a%29"
   },
   {
-    title: "Sputnik",
+    title: "Sputnik (2023)",
     subtitle: "Collection of posters",
     description:
       "'Sputnik' is a series of posters inspired by the iconic Sputnik satellite. Each poster captures the essence of Sputnik's historical significance and technological marvel through visually striking designs.",
@@ -289,6 +270,7 @@ export const allDesignProjects: imageGallery[] = [
         link: "https://www.behance.net/gallery/174574421/Sputnik",
       },
     ],
+    projectLink: "https://www.behance.net/gallery/174574421/Sputnik"
   },
   {
     title: "Dribble Screens",
@@ -296,8 +278,8 @@ export const allDesignProjects: imageGallery[] = [
     columns: 3,
     images: [
       {
-        src: d8.src,
-        link: "https://dribbble.com/shots/23608105-Calculator-app-landing-page?utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=Calculator%20app%20landing%20page&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=Calculator%20app%20landing%20page&utm_medium=Social_Share",
+        src: d9.src,
+        link: "https://dribbble.com/shots/24667325-Mobile-app-description-section?utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=Mobile%20app%20description%20section&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=Mobile%20app%20description%20section&utm_medium=Social_Share",
       },
       {
         src: d7.src,
@@ -310,19 +292,11 @@ export const allDesignProjects: imageGallery[] = [
       {
         src: d2.src,
         link: "https://dribbble.com/shots/22521183-Data-management-dashboard?utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=Data%20management%20dashboard&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=Data%20management%20dashboard&utm_medium=Social_Share",
-      },
-      {
-        src: d4.src,
-        link: "https://dribbble.com/shots/21626539-BiterBit-logotype?utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=BiterBit%20logotype&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=BiterBit%20logotype&utm_medium=Social_Share",
-      },
-      {
-        src: d6.src,
-        link: "https://dribbble.com/shots/23022968-Gallery-app-UI?utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=Gallery%20app%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HectorRivera222&utm_content=Gallery%20app%20UI&utm_medium=Social_Share",
-      },
+      }
     ],
   },
   {
-    title: "Social Media Design",
+    title: "Social Media Design (2019)",
     subtitle: "Social Media Projects",
     columns: 3,
     images: [
@@ -362,7 +336,7 @@ export const allDesignProjects: imageGallery[] = [
     ],
   },
   {
-    title: "Advertisement Design",
+    title: "Advertisement Design (2019)",
     subtitle: "Collection of Advertisements",
     columns: 3,
     images: [
