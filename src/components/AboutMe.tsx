@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="content">
           <Paragraph
             isTitle={false}
-            content="Born in 2005 in El Salvador. My work philosophy consists of creating useful tools for people, making design a part of functionality and functionality a part of the experience."
+            content="Born in El Salvador. My work philosophy consists of creating useful tools for people, making design a part of functionality and functionality a part of the experience."
           />
           <Paragraph
             isTitle={true}
